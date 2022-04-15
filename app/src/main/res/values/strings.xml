@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Rick and Morty test task</string>
+    <string name="name">Имя: %1$s</string>
+    <string name="species">Раса: %1$s</string>
+    <string name="gender">Пол: %1$s</string>
+    <string name="status">Статус: %1$s</string>
+    <string name="location">Последнее известное местоположение: %1$s</string>
+    <string name="episodes">Кол-во эпизодов: %1$s</string>
 </resources>
