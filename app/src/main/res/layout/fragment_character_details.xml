@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CharacterDetailsFragment"
+    tools:context=".ui.screens.CharacterDetailsFragment"
     android:background="#2D00BCD4">
 
 
@@ -41,7 +41,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/tv"
-                android:text="@string/name"
                 />
             <TextView
                 android:id="@+id/tv_details_species"
@@ -49,7 +48,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 style="@style/tv"
-                android:text="@string/species"
                 />
             <TextView
                 android:id="@+id/tv_details_gender"
@@ -57,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 style="@style/tv"
-                android:text="@string/gender"
+                android:text="@string/no_data"
                 />
             <TextView
                 android:id="@+id/tv_details_status"
@@ -65,7 +63,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 style="@style/tv"
-                android:text="@string/status"
                 />
             <TextView
                 android:id="@+id/tv_details_location"
@@ -73,7 +70,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 style="@style/tv"
-                android:text="@string/location"
                 />
             <TextView
                 android:id="@+id/tv_details_episodes"
@@ -81,7 +77,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 style="@style/tv"
-                android:text="@string/episodes"
                 />
 
         </LinearLayout>

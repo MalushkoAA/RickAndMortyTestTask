@@ -6,4 +6,13 @@
     <string name="status">Статус: %1$s</string>
     <string name="location">Последнее известное местоположение: %1$s</string>
     <string name="episodes">Кол-во эпизодов: %1$s</string>
+
+    <string name="load_error">Ошибка загрузки</string>
+    <string name="try_again">Попробовать снова</string>
+
+    <string name="no_data">ПРОБЛЕМЫ С ПОДКЛЮЧЕНИЕМ</string>
+
+
+
+
 </resources>
